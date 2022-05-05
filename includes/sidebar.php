@@ -191,7 +191,7 @@ echo "
 
 <li class='checkbox checkbox-primary'>
 
-<a>
+<a href='shop.php?cat'>
 
 <label>
 
@@ -215,7 +215,6 @@ $cat_title
 ";
 
 }
-
 
 ?>
 
