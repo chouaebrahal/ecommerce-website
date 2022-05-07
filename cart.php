@@ -347,7 +347,7 @@ echo @$up_cart = update_cart();
 
 <div id="row same-height-row"><!-- row same-height-row Starts -->
 
-<div class="col-md-12 col-sm-12"><!-- col-md-3 col-sm-6 Starts -->
+<div class="col-md-12"><!-- col-md-3 col-sm-6 Starts -->
 
 <div class="box "><!-- box same-height headline Starts -->
 

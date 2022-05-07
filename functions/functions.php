@@ -256,7 +256,6 @@ $aWhere[] = 'p_cat_id='.(int)$sVal;
 /// Categories Code Starts ///
 
 if(isset($_REQUEST['cat'])&&is_array($_REQUEST['cat'])){
-
 foreach($_REQUEST['cat'] as $sKey=>$sVal){
 
 if((int)$sVal!=0){

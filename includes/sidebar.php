@@ -146,7 +146,7 @@ echo "
 
 <input ";
 
-if(isset($aCat[$cat_id])){ echo "checked='checked'"; }
+if(isset($aCat[$cat_id])){ echo "checked='checked'";}
 
 echo " type='checkbox' value='$cat_id' name='cat' class='get_cat' id='cat'> 
 

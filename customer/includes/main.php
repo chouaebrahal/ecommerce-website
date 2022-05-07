@@ -94,13 +94,6 @@
             
               </a>
             </li>
-            
-
-            <li class="categories__item">
-              <a class="categories__link" href="../about.php">
-                About us
-              </a>
-            </li>
 
           <li class="categories__item">
               <a class="categories__link" href="#">
