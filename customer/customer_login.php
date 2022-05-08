@@ -120,6 +120,7 @@ echo "<script>alert('You are Logged In')</script>";
 
 echo "<script>window.open('checkout.php','_self')</script>";
 
+
 } 
 
 

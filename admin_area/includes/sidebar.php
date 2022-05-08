@@ -301,29 +301,7 @@ else {
 
 
 
-<li><!-- store section li Starts -->
 
-<a href="#" data-toggle="collapse" data-target="#store">
-
-<i class="fa fa-fw fa-briefcase"></i> store
-
-<i class="fa fa-fw fa-caret-down"></i>
-
-</a>
-
-<ul id="store" class="collapse">
-
-<li>
-<a href="index.php?insert_store"> Insert store </a>
-</li>
-
-<li>
-<a href="index.php?view_store"> View store </a>
-</li>
-
-</ul>
-
-</li><!-- store section li Ends -->
 
 
 <li><!-- contact us li Starts -->

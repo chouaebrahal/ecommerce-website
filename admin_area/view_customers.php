@@ -1,3 +1,4 @@
+
 <?php
 
 if(!isset($_SESSION['admin_email'])){
@@ -8,7 +9,7 @@ echo "<script>window.open('login.php','_self')</script>";
 
 else {
 
-
+    
 ?>
 
 <div class="row"><!-- 1 row Starts -->
@@ -63,6 +64,7 @@ else {
 <th>Customer Country:</th>
 <th>Customer City:</th>
 <th>Customer Phone Number:</th>
+<th>Customer Status:</th>
 <th>Customer Delete:</th>
 
 
@@ -97,6 +99,8 @@ $c_city = $row_c['customer_city'];
 
 $c_contact = $row_c['customer_contact'];
 
+$c_status = $row_c['customer_status'];
+
 $i++;
 
 
@@ -119,6 +123,15 @@ $i++;
 <td><?php echo $c_city; ?></td>
 
 <td><?php echo $c_contact; ?></td>
+<td>
+<div class="btn btn-success" style="text-decoration:none;">
+<a href="index.php?customer_status=<?php echo $c_id; ?>" >
+
+Active
+
+</a>
+</div>
+</td>
 
 <td>
 
